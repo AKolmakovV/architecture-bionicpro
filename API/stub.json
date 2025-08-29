@@ -1,0 +1,73 @@
+{
+    "prosthesis": {
+        "type": "bionic",
+        "purpose": "upper limb",
+        "model": "Bionic Arm Lite",
+        "manufacturer": "MediTech Inc.",
+        "manufacture_date": "2025-01-15",
+        "serial_number": "PAL-2025-00456",
+        
+        "technical_specifications": {
+            "weight": "0.75 kg",
+            "length": "32 cm",
+            "max_load": "20 kg",
+            "battery_life": "6 hours",
+            "charging": {
+                "type": "USB-C",
+                "charging_time": "3 hours",
+                "battery_capacity": "2500 mAh"
+            },
+            "sensors": [
+                "myoelectric",
+                "tactile",
+                "temperature"
+            ]
+        },
+        
+        "functionality": {
+            "movements": [
+                "flexion/extension",
+                "rotation",
+                "gripping",
+                "abduction/adduction"
+            ],
+            "operation_modes": [
+                "automatic",
+                "manual",
+                "adaptive"
+            ],
+            "control": {
+                "type": "myoelectric",
+                "sensitivity": "high",
+                "response_time": "instant"
+            }
+        },
+        
+        "medical_info": {
+            "patient": {
+                "full_name": "John Doe",
+                "date_of_birth": "1990-03-18",
+                "patient_id": "PT-000456"
+            },
+            "fitting_date": "2025-02-20",
+            "rehabilitation": {
+                "period": "2 months",
+                "stages": [
+                    "adaptation",
+                    "training",
+                    "optimization"
+                ]
+            }
+        },
+        
+        "maintenance": {
+            "warranty_period": "1 year",
+            "service_procedures": [
+                "battery check",
+                "sensor cleaning",
+                "calibration"
+            ],
+            "service_interval": "every 6 months"
+        }
+    }
+}
